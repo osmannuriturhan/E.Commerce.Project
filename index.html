@@ -27,12 +27,12 @@
         <div class="container">
           <div class="header-wrapper">
             <div class="header-mobile">
-              <i class="bi bi-list"></i>
+              <i class="bi bi-list" id="btn-menu"></i>
             </div>
             <div class="header-left">
               <a href="#" class="logo">LOGO</a>
             </div>
-            <div class="header-center">
+            <div class="header-center" id="sidebar">
               <nav class="navigation">
                 <ul class="menu-list">
                   <li class="menu-list-item">
@@ -180,14 +180,14 @@
                   </li>
                 </ul>
               </nav>
-              <i class="bi-x-circle"></i>
+              <i class="bi-x-circle" id="close-sidebar"></i>
             </div>
             <div class="header-right">
               <div class="header-right-links">
                 <a href="account.html" class="header-account">
                   <i class="bi bi-person"></i>
                 </a>
-                <button class="toggle-button">
+                <button class="search-button">
                   <i class="bi bi-search"></i>
                 </button>
                 <a href="#">
@@ -252,7 +252,7 @@
             </a>
           </div>
         </div>
-        <i class="bi bi-x-circle"></i>
+        <i class="bi bi-x-circle" id="close-search"></i>
       </div>
     </div>
 
@@ -873,7 +873,7 @@
                 <a href="#">Aliquam hendrerit mi metus</a>
               </div>
               <div class="blog-info-bottom">
-                <a href="#">Read More</a>
+                <a href="single-blog.html">Read More</a>
               </div>
             </div>
           </li>
@@ -1206,5 +1206,7 @@
     </footer>
 
     <!--! footer end -->
+
+    <script src="/Js/index.js"></script>
   </body>
 </html>

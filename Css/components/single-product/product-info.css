@@ -53,6 +53,8 @@
 
 .site-main .colors .colors-wrapper {
   display: flex;
+  column-gap: 4px;
+  margin-left: -1px;
 }
 
 .site-main .colors .colors-label {
@@ -140,6 +142,7 @@
   border: 1px solid #dee0ea;
   font-size: 14px;
   cursor: pointer;
+  text-align: center;
   transition: 0.2s ease all;
 }
 

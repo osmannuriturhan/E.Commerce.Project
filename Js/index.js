@@ -76,8 +76,6 @@ function currentSlide(n) {
   showSlides((slideIndex = n));
 }
 
-
-
 function showSlides(n) {
   const slides = document.getElementsByClassName("slider-item");
   const dots = document.getElementsByClassName("slider-dot");
